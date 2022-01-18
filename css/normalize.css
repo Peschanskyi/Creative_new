@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 1110px;
+    width: 100%;
+}
+
+h2{
+  font: 55px/55px '20Kopeek-Book';
+}
+
+h3{
+  font: 38px/42px '20Kopeek-Book';
+}
+
+h4{
+    font: 26px/29px '20Kopeek-Book';
+}
+
+p{
+  font: 18px/25px '20 Kopeek';
+}
+
+.text_col p{
+  font: 15px/19px '20 Kopeek';
+}
+
+a{
+  font: 18px/25px '20 Kopeek';
+    text-decoration: none;
+}
+
+.btn_white{
+    font: 18px/25px '20 Kopeek';
+    padding: 23px 47px;
+    border-radius: 40px;
+    color: black;
+    border: 1px solid black;
+}
+
+.btn_blue{
+    font: 18px/25px '20 Kopeek';
+    padding: 23px 47px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    background-color: #2B59C3;
+}
+
+input{
+    font: 18px/25px '20 Kopeek';
+}
+
+label{
+    font: 18px/25px '20 Kopeek';
+}
+
+.d_flex{
+    display: flex;
+}
+
+.d_flex_sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.d_flex_sa{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1124px){
+    .container{
+        max-width: 930px;
+        margin: auto;
+        width: 100%;
+    }
+
+    h2{
+        font: 45px/45px '20Kopeek-Book';
+    }
+
+    h3{
+        font: 34px/37px '20Kopeek-Book';
+    }
+
+    h4{
+        font: 26px/29px '20Kopeek-Book';
+    }
+
+    p{
+        font: 16px/22px '20 Kopeek';
+    }
+
+    .text_col p{
+        font: 14px/18px '20 Kopeek';
+    }
+
+    a{
+        font: 16px/22px '20 Kopeek';
+    }
+
+    .btn_white{
+        padding: 18px 47px;
+    }
+
+    .btn_blue{
+        font: 16px/22px '20 Kopeek';
+        padding: 19px 47px;
+    }
+
+    input{
+        font: 16px/22px '20 Kopeek';
+    }
+
+    label{
+        font: 16px/22px '20 Kopeek';
+    }
+}
+
+@media only screen and (max-width: 968px){
+    .container{
+        max-width: 688px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .container{
+        max-width: 514px;
+    }
+
+    h2{
+        font: 35px/35px '20Kopeek-Book';
+    }
+
+    h3{
+        font: 32px/35px '20Kopeek-Book';
+    }
+
+    h4{
+        font: 20px/22px '20Kopeek-Book';
+    }
+
+    p{
+        font: 15px/21px '20 Kopeek';
+    }
+
+    .text_col p{
+        font: 12px/16px '20 Kopeek';
+    }
+
+    a{
+        font: 15px/21px '20 Kopeek';
+    }
+
+    .btn_white{
+        padding: 18px 47px;
+    }
+
+    .btn_blue{
+        font: 15px/21px '20 Kopeek';
+        padding: 13px 47px;
+    }
+
+    input{
+        font: 15px/21px '20 Kopeek';
+    }
+
+    label{
+        font: 14px/21px '20 Kopeek';
+    }
+}
+@media only screen and (max-width: 524px){
+    .container{
+        max-width: 291px;
+    }
+}
